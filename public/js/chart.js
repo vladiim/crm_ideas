@@ -83,7 +83,8 @@ var mouseOverDot = function(data) {
        .duration(100)
        .style("opacity", .9)
        .style('background', 'lightgrey')
-       .style("padding", "2px")
+       .style("padding", "10px")
+       .style("margin", "10px")
        .style("font-size", "14px");
   tooltip.html(renderTooltip(data))
        .style("left", (d3.event.pageX + 8) + "px")
